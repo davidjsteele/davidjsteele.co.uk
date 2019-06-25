@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Azure DevOps - The pipeline(s) and builds will not be deleted"
+title: "Azure DevOps"
 date: 2019-06-25
 ---
 
-### Issue
+#### The pipeline(s) and builds will not be deleted
 When tidying up old build pipelines you might have seen the error message....
 >One or more builds associated with the requested pipeline(s) are retained by a release. The pipeline(s) and builds will not be deleted.
 
