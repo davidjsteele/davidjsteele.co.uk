@@ -2,3 +2,4 @@ theme: jekyll-theme-cayman
 name: David Steele
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+google_analytics: [Your Google Analytics tracking ID]
