@@ -8,7 +8,7 @@ date: 2019-06-25
 When tidying up old build pipelines you might have seen the error message....
 >One or more builds associated with the requested pipeline(s) are retained by a release. The pipeline(s) and builds will not be deleted.
 
-![Screenshot1](img/2019-06-25/1.png)
+![Screenshot1](../../../blog/2019-06-25/1.png)
 
 Feedback on [dev community](https://developercommunity.visualstudio.com/content/problem/442784/one-or-more-builds-associated-with-the-requested-p.html) discusses the issue in more detail and points out that when releases are deleted that associated builds should have locks removed but this isn't always the case.  I had already removed all releases associated with the builds so we need to remove the lock before the builds can be removed.
 
